@@ -146,10 +146,10 @@ figcaption:first-child{
     display: block;
     float: right;
     position: relative;
-    top: 346rem;
+    top: 366.5rem;
     right: 18px;
     z-index: 99;
-    border: 1px solid white;
+    border: 5px solid white;
 }
 .contact{
     padding: 5px;
@@ -212,6 +212,7 @@ body {
     justify-items: center;
     grid-template-rows: none;
     align-items: normal;
+    margin-bottom: 10px;
 
 }
 h1{
@@ -220,14 +221,31 @@ h1{
 }
 nav ul{
     width: 880px;
+    left: 25px;
 }
 .top{
-    top: 203.5rem;
-    left:200px;
+    top: 211rem;
+    left: 205px;
 }
 form{
-    position: relative;
-    left: 190px;
+    display: grid;
+    grid-template-rows: 9fr 9fr 9fr 9fr;
+    justify-content: center;
 }
+input{
+    width: 49rem;
+}
+button{
+    width: 23rem;
+}
+}
+@media screen and (min-width:1300px) {
+body {
+    width: 1300px;
+}
+.img-div{
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
 
+}
 }
