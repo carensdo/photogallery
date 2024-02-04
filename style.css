@@ -110,10 +110,13 @@ p{
     margin: 10px;
     line-height: 2rem;
 }
-
+.img-div{
+    display: grid;
+    grid-template-rows: .5fr .5fr .5fr 1fr 1fr 1fr .5fr .5fr .5fr .5fr .5fr .5fr;
+    justify-items: center;
+    align-items: center;
+}
 img{
-    position: relative;
-    left: 32px;
     align-items: center;
 }
 .guatemala{
@@ -205,9 +208,10 @@ body {
 }
 .img-div{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    position: relative;
-    right: 22px;
+    grid-template-columns: 5fr 5fr;
+    justify-items: center;
+    grid-template-rows: none;
+    align-items: normal;
 
 }
 h1{
