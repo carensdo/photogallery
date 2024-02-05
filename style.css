@@ -142,15 +142,19 @@ figcaption:first-child{
 [title="white"] {
     color: #ffffff;
 }
+a {
+    display: block;
+}
 .top{
     display: block;
     float: right;
     position: relative;
     top: 366.5rem;
     right: 18px;
-    z-index: 99;
+    z-index: 5;
     border: 5px solid white;
 }
+
 .contact{
     padding: 5px;
     left: 20px;
